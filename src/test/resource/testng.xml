@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practice AutomationSuite">
+	<listeners>
+		<listener class-name="com.PracticeFramework.qa.listeners.MyListeners" />
+	</listeners>
+  <test name="Practice Test Cases">
+    <classes>
+	  <class name="com.framework.testcases.LoginTest"/>
+	  <class name="com.framework.testcases.RegisterTest"/>
+      <class name="com.framework.testcases.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
